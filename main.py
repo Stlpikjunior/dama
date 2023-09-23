@@ -47,8 +47,7 @@ def drticka(dama:int): #cislo damy urcuje riadok
               st_p = (po*sq,moc*sq)
               en_p = ((po+1)*sq,(moc+1)*sq)
               img1.ellipse([st_p,en_p], fill = 'turquoise') 
-        if count == 92:
-          img.save('dama'+str(count)+'.jpg')
+        img.save('dama'+str(count)+'.jpg')
            
    else:
        for i in range(8):
